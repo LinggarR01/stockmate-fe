@@ -11,6 +11,7 @@
     "require": {
         "php": "^8.2",
         "blade-ui-kit/blade-icons": "^1.8",
+        "codeat3/blade-vaadin-icons": "^1.6",
         "davidhsianturi/blade-bootstrap-icons": "^2.1",
         "faisal50x/blade-ionicons": "^1.1",
         "laravel/framework": "^12.0",
