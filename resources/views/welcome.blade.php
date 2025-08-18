@@ -61,11 +61,10 @@
                 </p>
 
                 {{-- CTA --}}
-                <div class="mt-4">
+                <div class="mt-4 justify-items-center">
                     <a href="#contact"
-                        class="inline-flex items-center gap-2 px-6 py-3 bg-hijau-bagus font-bold text-white rounded-tl-3xl rounded-br-3xl hover:bg-green-800 font-montserrat">
-                        <x-ionicon-call class="w-5 h-5" />
-                        Contact Us
+                        class="text-2xl inline-flex items-center gap-2 px-6 py-3 bg-hijau-bagus font-bold text-white rounded-tl-3xl rounded-br-3xl hover:bg-green-800 font-montserrat">
+                        <x-ionicon-download class="w-12 h-12" /> Download Now
                     </a>
                 </div>
             </div>
@@ -77,56 +76,116 @@
             </div>
         </div>
     </section>
-    
+
     {{-- Feature Section --}}
-    <section class="w-full px-4 md:px-16 lg:px-48 py-16 my-4 bg-hijau-bagus">
-        <h1 class="text-5xl font-bold font-montserrat text-center text-white mb-12 mx-16 ">FEATURES</h1>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {{-- Feature 1 --}}
-            <div
-                class="group bg-white shadow-lg p-8 rounded-3xl flex flex-col items-center text-center transition hover:bg-hijau-bagus hover:shadow-xl cursor-pointer">
-                <div class="bg-hijau-bagus p-4 rounded-full mb-4 transition group-hover:bg-white">
-                    <x-vaadin-stock class="w-12 h-12 text-white group-hover:text-green-900" />
-                </div>
-                <h3 class="text-xl font-bold font-montserrat mb-2 text-black transition group-hover:text-white">
-                    Stock Management
-                </h3>
-                <p class="hidden group-hover:block text-white font-montserrat mt-2 transition">
-                    Manage incoming and outgoing stock easily, in real time, and accurately.
-                </p>
+    <section class="w-full bg-hijau-bagus py-16 my-4">
+        <div class="container mx-auto px-4 md:px-16 lg:px-48">
+            <div class="flex justify-center gap-4 mx-auto">
+                <x-carbon-feature-picker class="w-14 h-14 text-hijau-bagus bg-white p-3 rounded-full" />
+                <h1 class="text-5xl font-bold font-montserrat text-center text-white mb-12">
+                    FEATURES
+                </h1>
             </div>
 
-            {{-- Feature 2 --}}
-            <div
-                class="group bg-white shadow-lg p-8 rounded-3xl flex flex-col items-center text-center transition hover:bg-hijau-bagus hover:shadow-xl cursor-pointer">
-                <div class="bg-hijau-bagus p-4 rounded-full mb-4 transition group-hover:bg-white">
-                    <x-vaadin-file-text class="w-12 h-12 text-white group-hover:text-hijau-bagus" />
-                </div>
-                <h3 class="text-xl font-bold font-montserrat mb-2 text-black transition group-hover:text-white">
-                    PDF Reporting
-                </h3>
-                <p class="hidden group-hover:block text-white font-montserrat mt-2 transition">
-                    Print stock reports, incoming and outgoing goods directly in PDF format.
-                </p>
-            </div>
 
-            {{-- Feature 3 --}}
-            <div
-                class="group bg-white shadow-lg p-8 rounded-3xl flex flex-col items-center text-center transition hover:bg-hijau-bagus hover:shadow-xl cursor-pointer">
-                <div class="bg-hijau-bagus p-4 rounded-full mb-4 transition group-hover:bg-white">
-                    <x-vaadin-users class="w-12 h-12 text-white group-hover:text-hijau-bagus" />
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                {{-- Feature 1 --}}
+                <div class="group bg-white shadow-lg p-8 rounded-3xl flex flex-col items-center text-center 
+                       transition transform hover:-translate-y-2 hover:bg-hijau-bagus hover:shadow-xl cursor-pointer">
+                    <div class="bg-hijau-bagus p-4 rounded-full mb-4 transition group-hover:bg-white">
+                        <x-vaadin-stock class="w-12 h-12 text-white group-hover:text-hijau-bagus" />
+                    </div>
+                    <h3 class="text-xl font-bold font-montserrat mb-2 text-black transition group-hover:text-white">
+                        Stock Management
+                    </h3>
+                    <p class="opacity-0 max-h-0 group-hover:opacity-100 group-hover:max-h-40 
+                          transition-all duration-500 ease-in-out text-white font-montserrat mt-2">
+                        Manage incoming and outgoing stock easily, in real time, and accurately.
+                    </p>
                 </div>
-                <h3 class="text-xl font-bold font-montserrat mb-2 text-black transition group-hover:text-white">
-                    Multi User Access
-                </h3>
-                <p class="hidden group-hover:block text-white font-montserrat mt-2 transition">
-                    Atur role & akses user (admin, staff gudang, kasir) dengan aman.
-                </p>
+
+                {{-- Feature 2 --}}
+                <div class="group bg-white shadow-lg p-8 rounded-3xl flex flex-col items-center text-center 
+                       transition transform hover:-translate-y-2 hover:bg-hijau-bagus hover:shadow-xl cursor-pointer">
+                    <div class="bg-hijau-bagus p-4 rounded-full mb-4 transition group-hover:bg-white">
+                        <x-vaadin-file-text class="w-12 h-12 text-white group-hover:text-hijau-bagus" />
+                    </div>
+                    <h3 class="text-xl font-bold font-montserrat mb-2 text-black transition group-hover:text-white">
+                        PDF Reporting
+                    </h3>
+                    <p class="opacity-0 max-h-0 group-hover:opacity-100 group-hover:max-h-40 
+                          transition-all duration-500 ease-in-out text-white font-montserrat mt-2">
+                        Print stock reports, incoming and outgoing goods directly in PDF format.
+                    </p>
+                </div>
+
+                {{-- Feature 3 --}}
+                <div class="group bg-white shadow-lg p-8 rounded-3xl flex flex-col items-center text-center 
+                       transition transform hover:-translate-y-2 hover:bg-hijau-bagus hover:shadow-xl cursor-pointer">
+                    <div class="bg-hijau-bagus p-4 rounded-full mb-4 transition group-hover:bg-white">
+                        <x-vaadin-users class="w-12 h-12 text-white group-hover:text-hijau-bagus" />
+                    </div>
+                    <h3 class="text-xl font-bold font-montserrat mb-2 text-black transition group-hover:text-white">
+                        Multi User Access
+                    </h3>
+                    <p class="opacity-0 max-h-0 group-hover:opacity-100 group-hover:max-h-40 
+                          transition-all duration-500 ease-in-out text-white font-montserrat mt-2">
+                        Atur role & akses user (admin, staff gudang, kasir) dengan aman.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
 
+    {{-- About Section --}}
+    <section class="w-full px-4 sm:px-8 md:px-16 lg:px-48 py-12 sm:py-16 my-8 bg-gray-50">
+        <div class="container mx-auto">
+
+            {{-- Title --}}
+            <div class="flex justify-center items-center gap-3 mb-8 sm:mb-12">
+                <div class="bg-hijau-bagus p-2 sm:p-3 rounded-full">
+                    <x-eva-info class="w-6 h-6 sm:w-8 sm:h-8 text-white" />
+                </div>
+                <h1 class="text-2xl sm:text-4xl md:text-5xl font-bold font-montserrat text-gray-800">
+                    ABOUT STOCKMATE
+                </h1>
+            </div>
+
+            {{-- Content --}}
+            <div class="flex flex-col md:flex-row items-center md:items-start gap-6 sm:gap-8 md:gap-12">
+
+                {{-- Image --}}
+                <div class="flex-1 w-full">
+                    <img class="shadow-lg rounded-tr-3xl rounded-bl-3xl w-full max-h-[300px] sm:max-h-[400px] md:max-h-full object-cover p-3 sm:p-4 bg-hijau-bagus"
+                        src="{{ asset('img/warehouse.jpg') }}" alt="Warehouse Illustration">
+                </div>
+
+                {{-- Text --}}
+                <div class="flex-1 text-center md:text-left">
+                    <h2 class="text-xl sm:text-2xl md:text-4xl font-bold font-montserrat text-hijau-bagus">
+                        What Is Stockmate?
+                    </h2>
+                    <p class="mt-3 sm:mt-4 text-base sm:text-lg md:text-xl text-black leading-relaxed font-montserrat">
+                        <span class="font-semibold text-black">Stockmate</span> is a web-based inventory management
+                        application designed to help businesses manage their stock efficiently.
+                        With features like <span class="font-semibold">real-time stock tracking</span>,
+                        <span class="font-semibold">PDF reporting</span>, and
+                        <span class="font-semibold">multi-user access</span>,
+                        Stockmate simplifies the complexities of inventory management and ensures
+                        your business operations run smoothly.
+                    </p>
+
+                    {{-- CTA Button --}}
+                    <div class="mt-5 sm:mt-6">
+                        <a href="#features"
+                            class="inline-block px-5 sm:px-6 py-2 sm:py-3 bg-hijau-bagus text-white font-bold rounded-tl-2xl rounded-br-2xl sm:rounded-tl-3xl sm:rounded-br-3xl shadow-md hover:bg-green-700 transition">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 
