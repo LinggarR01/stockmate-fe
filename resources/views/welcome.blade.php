@@ -18,9 +18,9 @@
 </head>
 
 <body class="antialiased">
-    <div class="container mx-auto">
+    <header class="container mx-auto">
         @include('components.nav')
-    </div>
+    </header>
     <!-- Hero section -->
     <section class="w-full px-4 md:px-16 lg:px-48 py-16">
         <div class="container flex flex-col-reverse md:flex-row justify-between items-center mx-auto gap-8">
@@ -186,6 +186,10 @@
             </div>
         </div>
     </section>
+
+    <footer>
+        @include('components.footer')
+    </footer>
 
 </body>
 
