@@ -17,3 +17,7 @@ Route::get('/features', function () {
 Route::get('/faq', function () {
     return view('pages.faq');
 });
+
+Route::get('/login', function () {
+    return view('auth.login');
+});

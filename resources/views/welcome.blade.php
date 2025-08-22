@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Stockmate | Management Tool For Your Business</title>
+    <title>Stoc.io | Management Tool For Your Business</title>
 
     <!-- Styles / Scripts -->
     @if (
@@ -62,9 +62,9 @@
 
                 {{-- CTA --}}
                 <div class="mt-4 justify-items-center">
-                    <a href="#contact"
+                    <a href="/login"
                         class="text-2xl inline-flex items-center gap-2 px-6 py-3 bg-hijau-bagus font-bold text-white rounded-tl-3xl rounded-br-3xl hover:bg-green-800 font-montserrat">
-                        <x-ionicon-download class="w-12 h-12" /> Download Now
+                        <x-tabler-login class="w-12 h-12" /> Try It Now
                     </a>
                 </div>
             </div>
@@ -96,7 +96,7 @@
                         <x-vaadin-stock class="w-12 h-12 text-white group-hover:text-hijau-bagus" />
                     </div>
                     <h3 class="text-xl font-bold font-montserrat mb-2 text-black transition group-hover:text-white">
-                        Stock Management
+                        Inventory Management
                     </h3>
                     <p class="opacity-0 max-h-0 group-hover:opacity-100 group-hover:max-h-40 
                           transition-all duration-500 ease-in-out text-white font-montserrat mt-2">
@@ -123,14 +123,14 @@
                 <div class="group bg-white shadow-lg p-8 rounded-3xl flex flex-col items-center text-center 
                        transition transform hover:-translate-y-2 hover:bg-hijau-bagus hover:shadow-xl cursor-pointer">
                     <div class="bg-hijau-bagus p-4 rounded-full mb-4 transition group-hover:bg-white">
-                        <x-vaadin-users class="w-12 h-12 text-white group-hover:text-hijau-bagus" />
+                        <x-vaadin-user class="w-12 h-12 text-white group-hover:text-hijau-bagus" />
                     </div>
                     <h3 class="text-xl font-bold font-montserrat mb-2 text-black transition group-hover:text-white">
-                        Multi User Access
+                        Personal Account
                     </h3>
                     <p class="opacity-0 max-h-0 group-hover:opacity-100 group-hover:max-h-40 
                           transition-all duration-500 ease-in-out text-white font-montserrat mt-2">
-                        Atur role & akses user (admin, staff gudang, kasir) dengan aman.
+                        Change history (add/change/delete) per account.
                     </p>
                 </div>
             </div>
@@ -147,7 +147,7 @@
                     <x-eva-info class="w-6 h-6 sm:w-8 sm:h-8 text-white" />
                 </div>
                 <h1 class="text-2xl sm:text-4xl md:text-5xl font-bold font-montserrat text-gray-800">
-                    ABOUT STOCKMATE
+                    ABOUT Stoc.io
                 </h1>
             </div>
 
@@ -163,15 +163,15 @@
                 {{-- Text --}}
                 <div class="flex-1 text-center md:text-left">
                     <h2 class="text-xl sm:text-2xl md:text-4xl font-bold font-montserrat text-hijau-bagus">
-                        What Is Stockmate?
+                        What Is Stoc.io?
                     </h2>
                     <p class="mt-3 sm:mt-4 text-base sm:text-lg md:text-xl text-black leading-relaxed font-montserrat">
-                        <span class="font-semibold text-black">Stockmate</span> is a web-based inventory management
+                        <span class="font-semibold text-black">Stoc.io</span> is a web-based inventory management
                         application designed to help businesses manage their stock efficiently.
                         With features like <span class="font-semibold">real-time stock tracking</span>,
                         <span class="font-semibold">PDF reporting</span>, and
                         <span class="font-semibold">multi-user access</span>,
-                        Stockmate simplifies the complexities of inventory management and ensures
+                        Stoc.io simplifies the complexities of inventory management and ensures
                         your business operations run smoothly.
                     </p>
 

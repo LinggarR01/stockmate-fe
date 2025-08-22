@@ -18,10 +18,13 @@
 </head>
 
 <body class="antialiased">
-    <div class="container mx-auto">
+    <header class="container mx-auto">
         @include('components.nav')
-    </div>
+    </header>
     <h1 class="font-bold text-3xl">FAQ Stockmate!</h1>
+    <footer>
+        @include('components.footer')
+    </footer>
 </body>
 
 </html>

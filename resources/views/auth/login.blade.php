@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Login</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -21,10 +21,8 @@
     <header class="container mx-auto">
         @include('components.nav')
     </header>
-    <h1 class="font-bold text-3xl">About Stockmate!</h1>
-    <footer>
-        @include('components.footer')
-    </footer>
+    <h1 class="font-bold text-3xl">Login Stockmate!</h1>
+    
 </body>
 
 </html>

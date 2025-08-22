@@ -5,7 +5,7 @@
             <div class="flex flex-row justify-between items-center">
                 <!-- Logo -->
                 <div class=" flex items-center space-x-32">
-                    <a class="w-full" href="/"><img src="{{ asset('img/logo.svg') }}" alt="Stockmate Logo"></a>
+                    <a class="w-full" href="/"><img src="{{ asset('img/logo4.svg') }}" alt="Stoc.io Logo"></a>
                 </div>
 
                 {{-- Nav List --}}
