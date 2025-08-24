@@ -14,10 +14,11 @@ Route::get('/features', function () {
     return view('pages.features');
 });
 
-Route::get('/faq', function () {
-    return view('pages.faq');
-});
 
 Route::get('/login', function () {
     return view('auth.login');
+});
+
+Route::get('/register', function () {
+    return view('auth.register');
 });

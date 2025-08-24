@@ -16,7 +16,7 @@
                         class=" p-2 text-lg  text-hijau-bagus font-bold hover:text-white hover:bg-hijau-bagus hover:rounded-tl-xl hover:rounded-br-xl font-montserrat">Features</a>
                     <a href="/about"
                         class=" p-2 text-lg  text-hijau-bagus font-bold hover:text-white hover:bg-hijau-bagus hover:rounded-tl-xl hover:rounded-br-xl font-montserrat">About</a>
-                    <a href="/login"
+                    <a href="/register"
                         class=" rounded-full flex p-2 text-lg gap-2 text-white font-bold bg-hijau-bagus hover:text-hijau-bagus hover:bg-white hover:rounded-tl-xl hover:rounded-br-xl font-montserrat">
                         <x-tabler-login class="w-8 h-8 " /> Sign up
                     </a>

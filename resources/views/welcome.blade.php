@@ -177,7 +177,7 @@
 
                     {{-- CTA Button --}}
                     <div class="mt-5 sm:mt-6">
-                        <a href="#features"
+                        <a href="/about"
                             class="inline-block px-5 sm:px-6 py-2 sm:py-3 bg-hijau-bagus text-white font-bold rounded-tl-2xl rounded-br-2xl sm:rounded-tl-3xl sm:rounded-br-3xl shadow-md hover:bg-green-700 transition">
                             Learn More
                         </a>

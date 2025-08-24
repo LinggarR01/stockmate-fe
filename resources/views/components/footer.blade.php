@@ -18,7 +18,6 @@
                         <a href="/" class="hover:text-hijau-bagus">Home</a>
                         <a href="/features" class="hover:text-hijau-bagus">Features</a>
                         <a href="/about" class="hover:text-hijau-bagus">About</a>
-                        <a href="/faq" class="hover:text-hijau-bagus">FAQ</a>
                     </nav>
                 </div>
 
